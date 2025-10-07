@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-monorepo",
+  "name": "portfolio",
   "private": true,
   "workspaces": [
     "apps/*"
@@ -16,5 +16,8 @@
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "mongoose": "^8.19.0"
   }
 }
